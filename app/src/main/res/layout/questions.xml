@@ -24,6 +24,7 @@
 
             </TextView>
             <TextView
+                android:onClick="exit"
                 android:text="1. Расшифруйте надпись на языке Даэдра"
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="20dp"
@@ -206,7 +207,7 @@
                 app:srcCompat="@drawable/_023_06_13_23_13_58"
                 />
             <TextView
-                android:text="11.Расшифруйте:\n .-. . -.- --- .-. -..."
+                android:text="11.Расшифруйте:"
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
@@ -214,8 +215,16 @@
                 android:layout_height="match_parent"
                 android:textSize="@dimen/TextSize"/>
             <TextView
+                android:text=".-. . -.- --- .-. -..."
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/TextSize"/>
+            <TextView
                 android:text="17. Расшифруйте:\n Sivings sngsiav"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="25dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:layout_width="match_parent"

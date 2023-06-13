@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Edd"
         tools:targetApi="31">
         <activity
+            android:name=".QueNum2"
+            android:exported="false" />
+        <activity
+            android:name=".QueNum1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity3"
             android:exported="false" />
         <activity
