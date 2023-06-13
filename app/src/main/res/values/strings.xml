@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Edd</string>
-    <string name="TextSize">20sp</string>
+    <dimen name="TextUPSize">30sp</dimen>
+    <dimen name="TextSize">20sp</dimen>
 </resources>
