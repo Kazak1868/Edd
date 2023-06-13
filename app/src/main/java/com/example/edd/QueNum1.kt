@@ -18,9 +18,9 @@ class QueNum1 : AppCompatActivity() {
             var tehh = binding.answer1.text.toString()
             if(tehh == "с")
             {
-                ///val perehod = Intent(this, MainActivity3::class.java)
-                ///startActivity(perehod)
-                Toast.makeText(this,"Gotovo", Toast.LENGTH_LONG)
+                val perehod = Intent(this, MainActivity3::class.java)
+                startActivity(perehod)
+                Toast.makeText(this,"Gotovo", Toast.LENGTH_LONG).show()
             }
         }
     }
