@@ -13,6 +13,60 @@
         android:theme="@style/Theme.Edd"
         tools:targetApi="31">
         <activity
+            android:name=".QueNum20"
+            android:exported="false" />
+        <activity
+            android:name=".QueNum19"
+            android:exported="false" />
+        <activity
+            android:name=".QueNum18"
+            android:exported="false" />
+        <activity
+            android:name=".QueNum17"
+            android:exported="false" />
+        <activity
+            android:name=".QueNum16"
+            android:exported="false" />
+        <activity
+            android:name=".QueNum15"
+            android:exported="false" />
+        <activity
+            android:name=".QueNum14"
+            android:exported="false" />
+        <activity
+            android:name=".QueNum13"
+            android:exported="false" />
+        <activity
+            android:name=".QueNum12"
+            android:exported="false" />
+        <activity
+            android:name=".QueNum11"
+            android:exported="false" />
+        <activity
+            android:name=".QueNum10"
+            android:exported="false" />
+        <activity
+            android:name=".QueNum9"
+            android:exported="false" />
+        <activity
+            android:name=".QueNum8"
+            android:exported="false" />
+        <activity
+            android:name=".QueNum7"
+            android:exported="false" />
+        <activity
+            android:name=".QueNum6"
+            android:exported="false" />
+        <activity
+            android:name=".QueNum5"
+            android:exported="false" />
+        <activity
+            android:name=".QueNum4"
+            android:exported="false" />
+        <activity
+            android:name=".QueNum3"
+            android:exported="false" />
+        <activity
             android:name=".QueNum2"
             android:exported="false" />
         <activity
