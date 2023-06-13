@@ -1,7 +1,9 @@
 package com.example.edd
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import com.example.edd.databinding.MaingameBinding
 
 class MainActivity2 : AppCompatActivity() {
@@ -12,4 +14,9 @@ class MainActivity2 : AppCompatActivity() {
             binding = MaingameBinding.inflate(layoutInflater)
             setContentView(binding.root)
         }
+    fun questions (view: View)
+    {
+        val something = Intent(this, MainActivity3::class.java)
+        startActivity(something)
+    }
 }
