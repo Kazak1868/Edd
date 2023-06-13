@@ -30,54 +30,12 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp">
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="72dp">
 
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-
-                <EditText
-                    android:id="@+id/editTextText1"
-                    android:layout_width="20dp"
-                    android:layout_height="match_parent"
-                    android:ems="10"
-                    android:inputType="text"
-                    android:text="Name" />
-
-                <EditText
-                    android:id="@+id/editTextText2"
-                    android:layout_width="20"
-                    android:layout_height="match_parent"
-                    android:ems="10"
-                    android:inputType="text"
-                    android:text="Name" />
-
-                <EditText
-                    android:id="@+id/editTextText3"
-                    android:layout_width="20"
-                    android:layout_height="match_parent"
-                    android:ems="10"
-                    android:inputType="text"
-                    android:text="Name" />
-
-                <EditText
-                    android:id="@+id/editTextText18"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="text"
-                    android:text="Name" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
 
             <TableRow
                 android:layout_width="match_parent"
