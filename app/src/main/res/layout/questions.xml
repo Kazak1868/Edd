@@ -20,7 +20,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/TextSize" >
+                android:textSize="@dimen/TextUPSize" >
 
             </TextView>
             <TextView
@@ -29,7 +29,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="20dp">
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/TextSize" >
 
             </TextView>
             <ImageView
@@ -39,14 +40,16 @@
                 app:srcCompat="@drawable/_023_06_13_22_46_02"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"/>
+                android:layout_marginRight="20dp"
+                android:textSize="@dimen/TextSize"/>
             <TextView
                 android:text="2.расшифруйте надпись: \n хйоботь"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/TextSize">
 
             </TextView>
             <TextView
@@ -55,7 +58,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/TextSize">
 
             </TextView>
 
@@ -65,7 +69,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/TextSize"/>
 
 
             <TextView
@@ -74,7 +79,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/TextSize"/>
 
 
             <TextView
@@ -83,49 +89,56 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/TextSize"/>
             <TextView
                 android:text="15. Ответьте на вопрос: \n Что остается от дохода после всех финансовых манипуляций связанных с доходом?"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/TextSize"/>
             <TextView
                 android:text="16. В этом странном слове есть ответ: \n кроминоэкоками"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/TextSize"/>
             <TextView
                 android:text="19. Ответьте на вопрос:\n Кто является участниками экономической деятельности и принимает решения о расходовании денег, инвестициях и сбережениях?"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/TextSize"/>
             <TextView
                 android:text="20. Ответьте на вопрос:\n Когда молодёжь вступает во взрослую жизнь, они стремятся к этому, чтобы управлять своими деньгами и строить свое будущее. Это состоит из двух слов и является ключом к финансовому успеху. Что это? \n ответом являются два слова, пишите их слитно"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/TextSize"/>
             <TextView
                 android:text="По Горизонтали:"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/TextSize"/>
             <TextView
                 android:text="3. Ответьте на вопрос:\n Как называется площадка, на которой люди заключают сделки и обмениваются деньгами, товарами, ценными бумагами или производными контрактами"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/TextSize"/>
             <TextView
                 android:text="4. Приглядись, здесь все понятно:\nlaicnanif etutitsni \n(ответ писать на русском)"
                 android:layout_marginTop="20dp"
@@ -139,35 +152,40 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/TextSize"/>
             <TextView
                 android:text="6. Разгадайте шифр:\n qjpbfdjpmj gsonodubo\n (Внимание самый сложный шифр)"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/TextSize"/>
             <TextView
                 android:text="7. Ответьте на вопрос:\nКакая наука является своего рода экономическим детективом, исследующим загадки структуры и поведения всей экономики, чтобы раскрыть тайны эффективности, равновесия и роста?"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/TextSize"/>
             <TextView
                 android:text="8. Отгадайте загадку:\nЭто есть у всех, у кого есть доход, этим любят хвастаться, но при работе официально - не видят его."
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/TextSize"/>
             <TextView
                 android:text="10. Расшифруйте"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:textSize="@dimen/TextSize"/>
             <ImageView
                 android:id="@+id/DecodeRus"
                 android:layout_marginTop="20dp"
@@ -183,21 +201,24 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:textSize="@dimen/TextSize"/>
             <TextView
                 android:text="17. Расшифруйте:\n Sivings sngsiav"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:textSize="@dimen/TextSize"/>
             <TextView
                 android:text="18. Ответьте на вопрос:\nКакое слово описывает финансовую деятельность направленную на приобретение активов с целью получения прибыли в будущем?"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:textSize="@dimen/TextSize"/>
 
             <TextView
                 android:text="Полезные материалы:"
@@ -205,7 +226,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:textSize="@dimen/TextSize"/>
 
 
             <ImageView
