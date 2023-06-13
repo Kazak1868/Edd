@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Edd</string>
+    <string name="TextSize">20sp</string>
 </resources>
