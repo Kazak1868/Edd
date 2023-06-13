@@ -14,6 +14,7 @@ class MainActivity2 : AppCompatActivity() {
             binding = MaingameBinding.inflate(layoutInflater)
             setContentView(binding.root)
         }
+
     fun questions (view: View)
     {
         val something = Intent(this, MainActivity3::class.java)
