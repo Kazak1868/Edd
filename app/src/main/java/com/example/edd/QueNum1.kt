@@ -3,6 +3,7 @@ package com.example.edd
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 
 import com.example.edd.databinding.ActivityQueNum1Binding
 
@@ -17,8 +18,9 @@ class QueNum1 : AppCompatActivity() {
             var tehh = binding.answer1.text.toString()
             if(tehh == "с")
             {
-                val perehod = Intent(this, MainActivity3::class.java)
-                startActivity(perehod)
+                ///val perehod = Intent(this, MainActivity3::class.java)
+                ///startActivity(perehod)
+                Toast.makeText(this,"Gotovo", Toast.LENGTH_LONG)
             }
         }
     }
