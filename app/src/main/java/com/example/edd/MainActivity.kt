@@ -1,12 +1,10 @@
 package com.example.edd
 
-
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
 import com.example.edd.databinding.ActivityMainBinding
-
 import java.lang.Exception
 
 class MainActivity : AppCompatActivity() {
