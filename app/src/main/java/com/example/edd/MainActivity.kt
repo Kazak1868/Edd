@@ -26,6 +26,11 @@ class MainActivity : AppCompatActivity() {
         val something = Intent(this, MainActivity2::class.java)
         startActivity(something)
     }
+    fun questions (view: View)
+    {
+        val something = Intent(this, MainActivity3::class.java)
+        startActivity(something)
+    }
     fun exit ()
     {
         finishAffinity()
