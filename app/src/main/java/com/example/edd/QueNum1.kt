@@ -12,10 +12,10 @@ class QueNum1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityQueNum1Binding.inflate(layoutInflater)
         setContentView(binding.root)
-        var tehh = binding.answer1.text.toString()
 
         binding.answer1btn.setOnClickListener{
-            if(tehh == "страховая компания")
+            var tehh = binding.answer1.text.toString()
+            if(tehh == "с")
             {
                 val perehod = Intent(this, MainActivity3::class.java)
                 startActivity(perehod)
