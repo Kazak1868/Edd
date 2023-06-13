@@ -16,7 +16,7 @@ class MainActivity3 : AppCompatActivity() {
     }
     fun QNum1 (view: View)
     {
-        val something = Intent(this, MainActivity3::class.java)
+        val something = Intent(this, QueNum1::class.java)
         startActivity(something)
     }
 }

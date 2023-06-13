@@ -24,13 +24,13 @@
 
             </TextView>
             <TextView
-                android:onClick="exit"
+                android:onClick="QNum1"
                 android:text="1. Расшифруйте надпись на языке Даэдра"
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="20dp"
+                android:layout_height="wrap_content"
                 android:textSize="@dimen/TextSize">
 
             </TextView>

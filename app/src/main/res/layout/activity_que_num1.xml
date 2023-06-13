@@ -6,4 +6,64 @@
     android:layout_height="match_parent"
     tools:context=".QueNum1">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="1. Расшифруйте надпись на языке Даэдра"
+                android:textSize="@dimen/TextSize">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/DaedraQuest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                app:srcCompat="@drawable/_023_06_13_22_46_02" />
+
+            <EditText
+                android:id="@+id/answer1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp" />
+
+            <Button
+                android:id="@+id/answer1btn"
+                android:layout_width="120sp"
+                android:layout_height="40sp"
+                android:layout_marginLeft="150sp"
+                android:text="погнали"/>
+
+            <ImageView
+                android:id="@+id/Daedra"
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:textSize="@dimen/TextSize"
+                app:srcCompat="@drawable/_394449549_659576329" />
+        </LinearLayout>
+
+
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
