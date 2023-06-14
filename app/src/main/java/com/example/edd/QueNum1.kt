@@ -21,7 +21,6 @@ class QueNum1 : AppCompatActivity() {
             if(tehh == "с")
             {
 
-
                 val perehod = Intent(this, MainActivity3::class.java)
                 startActivity(perehod)
                 Toast.makeText(this,"Gotovo", Toast.LENGTH_LONG).show()
