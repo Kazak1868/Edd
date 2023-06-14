@@ -24,7 +24,9 @@
 
             </TextView>
             <TextView
+                android:id="@+id/QNum1"
                 android:onClick="QNum1"
+                android:textColor="@color/Red"
                 android:text="1. Расшифруйте надпись на языке Даэдра"
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="20dp"
@@ -32,6 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/TextSize">
+
 
             </TextView>
             <ImageView
