@@ -10,7 +10,7 @@ import com.example.edd.databinding.ActivityQueNum1Binding
 
 class QueNum1 : AppCompatActivity() {
     private lateinit var binding: ActivityQueNum1Binding
-var boolean Colory = 0
+    var boolean Colory = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
