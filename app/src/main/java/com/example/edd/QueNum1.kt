@@ -11,7 +11,6 @@ import com.example.edd.databinding.ActivityQueNum1Binding
 class QueNum1 : AppCompatActivity() {
     private lateinit var binding: ActivityQueNum1Binding
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityQueNum1Binding.inflate(layoutInflater)
