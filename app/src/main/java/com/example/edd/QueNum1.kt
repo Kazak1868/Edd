@@ -15,14 +15,16 @@ class QueNum1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityQueNum1Binding.inflate(layoutInflater)
         setContentView(binding.root)
+        var Colory: Int = 0
 
         binding.answer1btn.setOnClickListener{
             var tehh = binding.answer1.text.toString()
-            if(tehh == "с")
+            if(tehh == "страховая компания"||tehh == "страховая"||tehh == "страховка")
             {
                 val perehod = Intent(this, MainActivity3::class.java)
                 startActivity(perehod)
                 Toast.makeText(this,"Gotovo", Toast.LENGTH_LONG).show()
+                Colory = 1
             }
             else
             {
