@@ -6,4 +6,73 @@
     android:layout_height="match_parent"
     tools:context=".QueNum11">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="11.Расшифруйте:"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/TextSize"/>
+            <TextView
+                android:text=".-. . -.- --- .-. -..."
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="50sp"/>
+
+            <EditText
+                android:id="@+id/answer11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp" />
+
+            <Button
+                android:id="@+id/answer11btn"
+                android:layout_width="120sp"
+                android:layout_height="40sp"
+                android:layout_marginLeft="150sp"
+                android:text="погнали"/>
+            <ImageView
+                android:id="@+id/MorzeRus"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:textSize="@dimen/TextSize"
+                app:srcCompat="@drawable/_645043987_6_fikiwiki_com_p_kartinki_azbuka_morze_7"
+                />
+            <ImageView
+                android:id="@+id/MorzeEng"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:textSize="@dimen/TextSize"
+                app:srcCompat="@drawable/international_morse_code"
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

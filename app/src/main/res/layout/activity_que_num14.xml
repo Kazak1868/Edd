@@ -6,4 +6,45 @@
     android:layout_height="match_parent"
     tools:context=".QueNum14">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="14. Разгадайте загадку: \n Я - подарок от государства, снижаю твои расходы сразу, около доходов весело верчусь, уменьшаю налоги твои на год вперед. Что я такое?"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/TextSize"/>
+
+            <EditText
+                android:id="@+id/answer14"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp" />
+
+            <Button
+                android:id="@+id/answer14btn"
+                android:layout_width="120sp"
+                android:layout_height="40sp"
+                android:layout_marginLeft="150sp"
+                android:text="погнали"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

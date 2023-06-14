@@ -15,12 +15,16 @@ class QueNum2 : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.answer2btn.setOnClickListener{
-            var tehh = binding.answer1.text.toString()
+            var tehh = binding.answer2.text.toString()
             if(tehh == "финансы")
             {
                 val perehod = Intent(this, MainActivity3::class.java)
                 startActivity(perehod)
                 Toast.makeText(this,"Gotovo", Toast.LENGTH_LONG).show()
+            }
+            else
+            {
+                Toast.makeText(this,"НЕВЕРНО", Toast.LENGTH_LONG).show()
             }
         }
     }

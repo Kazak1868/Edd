@@ -27,7 +27,7 @@
                 android:textSize="@dimen/TextSize"/>
 
             <EditText
-                android:id="@+id/answer1"
+                android:id="@+id/answer2"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="20dp"

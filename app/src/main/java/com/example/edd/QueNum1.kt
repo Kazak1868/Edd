@@ -18,10 +18,14 @@ class QueNum1 : AppCompatActivity() {
             var tehh = binding.answer1.text.toString()
             if(tehh == "с")
             {
-                public Q1 bool = 0
+
                 val perehod = Intent(this, MainActivity3::class.java)
                 startActivity(perehod)
-                Toast.makeText(this,"@string/Gotovo", Toast.LENGTH_LONG).show()
+                Toast.makeText(this,"Gotovo", Toast.LENGTH_LONG).show()
+            }
+            else
+            {
+                Toast.makeText(this,"НЕВЕРНО", Toast.LENGTH_LONG).show()
             }
         }
     }
