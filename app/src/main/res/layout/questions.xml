@@ -24,7 +24,7 @@
 
             </TextView>
             <TextView
-                android:id="@+id/QNum1"
+                android:id="@+id/QueNum1"
                 android:onClick="QNum1"
                 android:text="1. Расшифруйте надпись на языке Даэдра"
                 android:layout_marginTop="20dp"

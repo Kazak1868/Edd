@@ -15,7 +15,7 @@ class QueNum1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityQueNum1Binding.inflate(layoutInflater)
         setContentView(binding.root)
-        var Colory: Int = 0
+        var ColoryOld: Int = 0
 
         binding.answer1btn.setOnClickListener{
             var tehh = binding.answer1.text.toString()
@@ -24,7 +24,7 @@ class QueNum1 : AppCompatActivity() {
                 val perehod = Intent(this, MainActivity3::class.java)
                 startActivity(perehod)
                 Toast.makeText(this,"Gotovo", Toast.LENGTH_LONG).show()
-                Colory = 1
+                ColoryOld = 1
             }
             else
             {

@@ -20,4 +20,9 @@ class MainActivity2 : AppCompatActivity() {
         val something = Intent(this, MainActivity3::class.java)
         startActivity(something)
     }
+    fun yep (view: View)
+    {
+        val something = Intent(this, MainActivity::class.java)
+        startActivity(something)
+    }
 }

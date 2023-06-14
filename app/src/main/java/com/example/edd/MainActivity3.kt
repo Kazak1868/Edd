@@ -9,6 +9,8 @@ import com.example.edd.databinding.QuestionsBinding
 class MainActivity3 : AppCompatActivity() {
 
     private lateinit var binding: QuestionsBinding
+    var Colory:Int = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = QuestionsBinding.inflate(layoutInflater)
@@ -18,6 +20,7 @@ class MainActivity3 : AppCompatActivity() {
     {
         val something = Intent(this, QueNum1::class.java)
         startActivity(something)
+
     }
     fun QNum2 (view: View)
     {
